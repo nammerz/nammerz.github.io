@@ -6,3 +6,10 @@
 li{
   display: inline;
 }
+
+#icons{
+  position:fixed;
+  top:10px;
+  left: 50%;
+  margin_left:-254px;
+}
