@@ -12,16 +12,18 @@ li{
   links on top and in the middle. i am also trying to decide
   if i want to make it float as you scroll*/
   position:fixed;
-  top:10px;
+ 
 }
 
 #header{ /*this is where im trying to make the main links center
   at the top of the page*/
   position:relative;
-  width: 50%;
+
 }
 
 div{/* i think i have to type this up to make sure all links are
   blocks*/
   display:inline-block;
+  border: 1px solid black;
+  border_radius: 10px;
 }
