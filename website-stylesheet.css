@@ -23,7 +23,7 @@ li{
 
 div{/* i think i have to type this up to make sure all links are
   blocks*/
-  display:inline-block;
+  display:inline;
   border: 1px solid black;
   border_radius: 10px;
 }
