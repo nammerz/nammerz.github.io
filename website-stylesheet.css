@@ -13,3 +13,7 @@ li{
   left: 50%;
   margin_left:-100px;
 }
+
+#header{
+  position:relative;
+}
