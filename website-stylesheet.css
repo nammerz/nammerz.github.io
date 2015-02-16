@@ -4,14 +4,14 @@
 }
 
 li{
-  display: inline; /* this is where i want the icons and main 
+  display: inline-block; /* this is where i want the icons and main 
   links to be inline*/
 }
 
 #icons{ /* im trying to figure out how to put my social media 
   links on top and in the middle. i am also trying to decide
   if i want to make it float as you scroll*/
-  position:fixed;
+  position:relative;
  
 }
 
