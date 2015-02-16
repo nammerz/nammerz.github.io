@@ -18,6 +18,7 @@ li{
 #header{ /*this is where im trying to make the main links center
   at the top of the page*/
   position:relative;
+  display: inline;
 
 }
 
