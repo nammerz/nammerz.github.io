@@ -22,3 +22,7 @@ div{/* i think i have to type this up to make sure all links are
   border: 2px solid black
   display:inline-block;
 }
+
+#main{
+  display: inline-block;
+}
