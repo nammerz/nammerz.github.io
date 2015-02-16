@@ -17,8 +17,8 @@ li{
 
 div{/* i think i have to type this up to make sure all links are
   blocks*/
+  height: 50px;
+  width: 50px;
+  border: 2px solid black
   display:inline;
-  border: 1px solid black;
-  border_radius: 50px;
-  background-color: red;
 }
