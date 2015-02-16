@@ -3,6 +3,10 @@
   background-color: b5b5b6;
 }
 
+img {
+  height: 150px;
+  width: 100px;
+
 li{
   display: inline-block; /* this is where i want the icons and main 
   links to be inline*/
