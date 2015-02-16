@@ -15,16 +15,10 @@ li{
  
 }
 
-#header{ /*this is where im trying to make the main links center
-  at the top of the page*/
-  position:relative;
-  display: inline;
-
-}
-
 div{/* i think i have to type this up to make sure all links are
   blocks*/
   display:inline;
   border: 1px solid black;
-  border_radius: 10px;
+  border_radius: 50px;
+  background-color: red;
 }
