@@ -1,0 +1,63 @@
+<head>
+  <title>I want some Hashbrowns right now...</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+
+<main>
+  <h1>I want some Hashbrowns right now...</h1>
+  <h2>Don't send the Waiter Array just yet!</h2>
+  <h4>22 Feb 15</h4>
+
+  <section>
+    <p>
+      Arrays and hashes are ways to list things into ruby. It is fairly easy to use. You just got to be very careful in how you write out the code. There are so many ways to write arrays and hashes which is why its great to reference Ruby Docs so your code can perform the way you want it to.
+    </p>
+
+    <p>
+      A great way to learn about basic hashes and arrays is through Codecademy. Here is an example:
+
+          languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
+
+          languages.each {|x| puts x}
+
+      Here we create an array of program languages. "languages" is the name of the array. The next line is what we want the array to do. "languages.each" means that each item in the array. The "x" is a variable that is in the array (which will be our specific program language). "puts" tells the program to print out, in which we want to print out x. Since we know what x is (our specific languages), Ruby will print out all the languages we have in our array! Easy to understand right?
+    </p>
+
+    <p>
+      Here is a bit more complicated array. Still easy to understand though, so don't worry!
+
+          s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
+
+           s.each do |sub_array| 
+            sub_array.each do |y| 
+              puts y
+            end
+          end
+
+      The array is called "s". Within "s", we have our ingredients to our sandwiches. But look carefully, there's arrays within an array! There really isnt much written differently compared to the first example. The coding may seem a bit more confusing but it really isn't if you look carefully. The first line of code we see "s.each" which is what our code will do to each array. The "do" is telling the program to do this. We call the ingredients in the array "sub_array" then on the next line we did the same thing but for sub_array. What we are doing here allows us to call the elements within the sub array. So we are calling the sub_array within the array, get it? So with the "puts y" we are wanting Ruby to print out the ingredients. "end" essentially means thats the end of the code.
+    </p>
+
+    <p>
+      Next, its Hash time! Here is an example off Codecademy:
+
+      secret_identities = {
+        "The Batman" => "Bruce Wayne",
+        "Superman" => "Clark Kent",
+        "Wonder Woman" => "Diana Prince",
+        "Freakazoid" => "Dexter Douglas"
+      }
+  
+      secret_identities.each do |secret,name| puts "#{secret}: #{name}"
+      end
+
+      Hashes is a bit more complicated than arrays in my opinion but if you read carefully, you will understand. We name our hash secret_identities. We have to make sure we use "{" or else it wont be a hash. Make sure you use "}" at the end so it closes our hash. "the batman" is directed to "bruce wayne" with a "=>" sign. This means this here is that. We continue that with the rest of the names. Now we want to call the hash and print it out. So as you already know, "secret_identities.each do" is the name of the has and we want it to do for each name. As you can see, there are two categories within the double pipes (||). This lets ruby know there are two elements we want to define. "#{secret}: #{name}" is what we want to print out based on the code "puts". When you run the code, that entire list should print out. Not hard right?!
+    </p>
+    <p>
+      I want to thank you all for reading this. This is one of the harder parts of basic Ruby to understand. With practice, reading and doing all this is not too hard.
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
