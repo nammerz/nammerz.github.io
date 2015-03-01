@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+  <title>Where's the Gas Station</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+
+<main>
+  <h1>Where's the Gas Station?</h1>
+  <h2>We need to .Map out our trip!</h2>
+  <h4>28 Feb 2015</h4>
+
+  <section>
+    <p>
+      I will be teaching you, Fellow Reader, what .map does. It is pretty complicated but I will do my best to help you understand. Trust me, I am a beginner myself, so this will make it easier for me to explain because if I can explain and teach myself, it shouldn't be a problem for you!
+    </p>
+    <p>
+      Let's use a very, very simple example. We will create an array of names and capitalize each element (the items inside the array) in the array:
+    </p>
+    <p>
+      a = [“mila”, “priscilla”, “carrie”, “taylor”]
+    </p>
+    <p>
+      a.map {|x| x.capitalize}
+    </p>
+    <p>
+     What I have written here is the array (the first line of code) and the .map (second line). The first line is pretty self explanatory. It's just a list of names of my favorite female actors. The second line of code is where the magic happens. I will explain every thing piece by piece. 
+    </p>
+    <p>
+      a.map – this is where “a” (the array) is combined with .map. This tells the computer to run the code and mutate (change) each element inside the array.
+    </p>
+    <p>
+      |x| - is the value that we will be defining.
+    </p>
+    <p>
+      x.capitalize – capitalize is joined with “x”, shown by the “.” between “x” and “capitalize” which means each “x” will be capitalized
+    </p>
+    <p>
+      Now lets combine every thing to understand how it all works!
+    </p>
+    <p>
+      When a.map is combined with {|x| x.capitalize}, we tell the computer to capitalize each element since it  will map the function to each element. Does that make sense? 
+    </p>
+    <p>
+      .map means we run whatever is inside the curly braces “{ }” to the entire array. 
+    </p>
+    <p>
+      |x| x.capitalize} means that anything placed in the double pipes “ | | ” will be touched when it is coded within the curly braces “ { } ” . So if let's say I do this instead - {|y,x| x.capitalize} only “x” will be mutated (changed) but “y” will still remain the same. 
+    </p>
+    <p>
+      I know this is a lot of mumbo jumbo but hey, I given this entire blog post to someone who's never read code in their life, including HTML and she understood it. Not bad huh? Complicated but not bad.
+    </p>
+    
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
