@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<head>
+  <title>Blocks, Procs, and Lambdas</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+
+<main>
+  <h1>Blocks, Procs and Lambdas</h1>
+  <h2>What the heck? Sounds Foreign</h2>
+  <h4>08 Mar 2015</h4>
+
+  <section>
+  <p>Today's blog will be about Blocks, Procs and Lambdas. They sound absolutely confusing if you never heard of them but you probably already use them. You just didn't know that they were called that way.</p>
+
+<p>We'll start off with the Procs</p>
+
+<p>Procs are objects. Here is an example:</p>
+
+<p>A proc is an instance of a Proc class.</p>
+
+<p>p = Proc.new {puts “Hi everyone! I am a Proc!}</p>
+<p>Procs in this example is the lower case “p”. </p>
+
+<p>Other examples of procs:</p>
+<p>p.call   This will print out, “Hi everyone! I am a Proc!</p>
+<p>p.class    This will say 'Proc'</p>
+<p>yummy_food = p yummy_food will now represent p</p>
+<p>p</p>    This will return a proc object</p>
+
+<p>It isn't too hard to understand right? As you can tell by these examples, you probably already use them!</p>
+
+<p>Blocks is part of a method call, or part of the syntax. It cannot be by itself or it will throw an error and can only be part of an argument.</p>
+
+<p> {puts “Hi everyone! I am a Block!}    This will throw an error</p>
+<p>superman = {puts “Hi everyone! I am a Block!}  This will also throw an error</p>
+<p>[“Superman”, “Batman”, “Wolverine”].each {|x| puts x*2} This definitely works!</p>
+
+<p>Now we get into the Lambdas! Something to know about them... they're Procs as well!</p>
+
+<p>WHAT?!?!?!</p>
+
+<p>p = Proc.new {puts “Hi everyone! I am a Proc!}</p>
+<p>l = lambda { puts “Well, I'm a Lambda!}</p>
+<p>proc.class   returns 'Proc'</p>
+<p>lam.class    returns 'Proc'</p>
+
+<p>There are differences though. Lambdas checks for all the argument in the method whereas Procs does not and will still run the program.</p>
+
+<p>superman = lambda {|x| puts x}     this lambda will take only 1 argument</p>
+<p>superman.call(2)       since there is only one argument, it will print out 2</p>
+<p>superman.call      there're no arguments stated so ArgumentError prints</p>
+<p>superman.call(1,2,3) there're 3 but lambdas take specific # of arguments so an error prints
+
+<p>batman = Proc.new {|x| puts x}   this proc will take only 1 argument</p>
+<p>batman.call(2)       since there is only one argument, it will print out 2</p>
+<p>batman.call        this will print nil</p>
+<p>batman.call(1,2,3)   this will print out “1” but not “2” or “3”</p>
+
+<p>This is just a general explanation of Blocks, Procs, and Lambdas. It obviously gets much more complicated but we'll just leave it as this. I hope this explains just a tiny bit of what these three things talk about.</p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
 
