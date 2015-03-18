@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <title>What Flavors do you like?</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+
+<main>
+  <h1>What Flavors do you like?</h1>
+  <h2>Javascript sounds tasty but so does Ruby </h2>
+  <h4>17 Mar 2015</h4>
+
+  <section>
+  
+<p>A language like Ruby is a toolbox with some really neat little tools that do their job really nicely. JavaScript is a leather sheath with a really really sharp knife inside. - skilldrick.co.uk</p>
+
+<p>Skilldrick also stated that, “Ruby has something different for every situation, and each one is optimised for its primary use-case. This can lead to confusion but can also make code easier to read. On the other hand, in JavaScript, a function is a function is a function. Once you know how they work, it’s easy.” As of now, I have more experience with Ruby being that I have worked with it for 6 weeks vs. the one week I have worked with JS. Since using it for one week, JS isn't too bad to use. I actually enjoy it</p>
+
+<p>I'd like to talk about loops as it is instrumental in both languages to get code to run.</p>
+
+<p>I'll do an example of a “while” loop for both Ruby and JavaScript</p>
+
+<p>In Ruby, a generally written while loop goes like this:</p>
+
+<p>x = gets.chomp.to_i</p>
+<p>while x >= 0</p>
+<p> puts x</p>
+<p> x -= 1</p>
+<p>end</p>
+
+<p>Pay attention to how it is written so you can compare it with the JavaScript version. When you run this through terminal, the terminal will wait for a number to be entered; lets use 20 (we don't have to use gets.chomp but I did just for flare. We could have used x = 20). From there, the program will run as follows: While x is greater or equal to 0, which is while 20 is greater or equal to 0, it'll print out 20 and then goes to the next line of code. That line of code will subtract 1 from 20 and run the code again because x is still greater than 0. Since 19 is greater than 0, it will print 19 and then subtract 1 again. The code will run over and over until x is no longer greater than 0.</p>
+
+<p>Now in JavaScript, while loops are done this way:</p>
+
+<p>var x = 20;</p>
+<p>while  (x >= 0)</p>
+<p>{</p>
+<p> document.write(x + “<br>”);</p>
+<p> x -= 1;</p>
+<p>}</p>
+
+<p>We have to define what x is by starting off with a variable statement “var”. It's required for JS. If you also notice, we have a semicolon at the end of that line. Semicolons serve to separate statements from each other. If you look carefully, I did not use it after the parentheses because that statement is still open. Inside the curly braces “{ }” I used the semicolons to let terminal know that thats the end of each line within the curly braces. I used the same exact variables and objects just to make it easier to understand. Here in JS, you can see that I used document.write. JS does not have a built-in print or display function so we use this. We can use (x); and be done with that but it would show the entire 20 to 0 on one line with no spaces in between. i.e. 201918171615 etc. This is why we add the <br> so it will print an integer per line. The closing curly braces “}” finishes off the entire statement whereas in Ruby, “end” closes the statement.</p>
+
+<p>I hope you all enjoyed my description of a general “while” loop. I enjoyed doing this as it allowed me to reenforce my knowledge for both Ruby and JavaScript.</p>
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
 
